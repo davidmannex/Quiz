@@ -99,7 +99,7 @@ function highscoreChart(){
   cEl.style.visibility='hidden';
   dEl.style.visibility='hidden';
   countEl.style.visibility='hidden';
-  if (not scoreadded){
+  if (!(scoreadded)){
   var initals = prompt("Please type your innitals","AAA");
   addScore(points,initals);
   scoreadded=true;
